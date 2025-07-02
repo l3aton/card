@@ -1,0 +1,66 @@
+.bg-container{
+    background-color: antiquewhite;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.my-photo{
+    width: 200px;
+}
+.head-container{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.header1{
+    text-align: center;
+}
+.p-num{
+    text-decoration: none;
+    color: black;
+}
+.main-add-inf{
+    width: 300px;
+}
+.main-text{
+    width: 100%;
+}
+.main-text h2{
+    margin: 50px;
+}
+.main-text h3{
+    margin: 50px;
+}
+@media (max-width: 768px) {
+    * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+  .bg-container {
+    width: 100%;
+    margin: 0; 
+    padding-bottom: 10px;
+  }
+  
+  .head-container {
+    display: flex;
+    flex-direction: column; /* чтобы блоки шли вертикально */
+    margin: 15px;           /* уменьшить отступы */
+  }
+
+  .main-add-inf,
+  .main-text {
+    width: 100%;       /* растягиваются на всю ширину */
+  }
+
+  .main-text h2,
+  .main-text h3 {
+    margin: 15px;
+  }
+
+}

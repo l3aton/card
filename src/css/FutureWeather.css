@@ -1,0 +1,40 @@
+.future-w-card{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #B3E5FC;
+}
+
+.future-w-img{
+    display: block;
+    margin: 0 auto;
+}
+
+.swiper{
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 63%;
+}
+
+@media (max-width: 768px){
+    .future-w-card{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #B3E5FC;
+}
+
+.future-w-img{
+    display: block;
+    margin: 0 auto;
+}
+
+}
