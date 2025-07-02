@@ -1,8 +1,10 @@
 import MyPhoto from '../photos/myphoto.jpg'
 import '../css/MainPage.css'
-
+import { useEffect } from 'react';
 const MainPage = () => {
-
+    useEffect(() => {
+        alert('На сторінці містяться фото, будь ласка зачекайте поки вони завантажаться');
+    }, []);
     return(
         <div className='bg-container'>
             <h1 className='header1'>Вітаю!</h1>

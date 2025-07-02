@@ -8,9 +8,13 @@ import bmwe36m3 from '../photos/bmwe36m3.jpeg'
 import bmwe36sedan from '../photos/bmwe36sedan.jpeg'
 import bmwe36touring from '../photos/bmwe36touring.jpg'
 import { useState } from 'react'
-
+import { useEffect } from 'react';
 
 const BMWPage = () => {
+
+    useEffect(() => {
+        alert('На сторінці містяться фото та відео, будь ласка зачекайте поки вони завантажаться');
+    }, []);
 
     const [current, setCurrent] = useState(0);
 

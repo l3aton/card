@@ -17,10 +17,12 @@ import SingMeLullaby from '../photos/SingMeLullaby.png'
 import StopStaringAtShadows from '../photos/StopStaringAtShadows.png'
 import AppleMusic from '../photos/AppleMusic.png'
 import YTMusic from '../photos/YTMusic.png'
-
+import { useEffect } from 'react';
 
 const SBPage = () => {
-
+    useEffect(() => {
+        alert('На сторінці містяться фото та відео, будь ласка зачекайте поки вони завантажаться');
+    }, []);
   const Albums = [
     {
       img: thOrStTammany,

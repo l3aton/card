@@ -3,6 +3,9 @@ import WeatherComponent from "../components/WeatherComponent";
 import "../css/WeatherPage.css";
 
 const WeatherPage = () => {
+      useEffect(() => {
+        alert('На сторінці містяться фото, будь ласка зачекайте поки вони завантажаться');
+    }, []);
   const [data, setData] = useState(null);
   const [dataFuture, setDataFuture] = useState(null);
   const [value, setValue] = useState('Brovary');
