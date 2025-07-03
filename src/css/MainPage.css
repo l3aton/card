@@ -49,13 +49,13 @@ body {
   
   .head-container {
     display: flex;
-    flex-direction: column; /* чтобы блоки шли вертикально */
-    margin: 15px;           /* уменьшить отступы */
+    flex-direction: column; 
+    margin: 15px;           
   }
 
   .main-add-inf,
   .main-text {
-    width: 100%;       /* растягиваются на всю ширину */
+    width: 100%;       
   }
 
   .main-text h2,
